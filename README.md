@@ -1,4 +1,4 @@
-# algorithm
+# Algorithm
 This repository will contains steps for prepare algorithm interview.
 
 ## 1 Array & Hashtable [2022/04/13 - 2022/04/20]
