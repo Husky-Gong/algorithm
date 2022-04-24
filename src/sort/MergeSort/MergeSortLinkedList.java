@@ -1,4 +1,4 @@
-package sort;
+package sort.MergeSort;
 
 public class MergeSortLinkedList {
     public static void main(String[] args) {

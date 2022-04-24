@@ -1,4 +1,4 @@
-package sort;
+package sort.MergeSort;
 
 public class ListNode {
     int val;
