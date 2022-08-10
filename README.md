@@ -18,7 +18,7 @@ Time Complexity:
   **conquer**:
   For each level, we have N nodes to sort in total. And we have log(N) levels. Thus, time complexity in conquer is O(N) * O(log(N)) = O(N*log(N))
   
-  ```java
+  ```
   for (int k = left; k <= right; k++) {
             help[k] = nums[k];
         }
@@ -31,6 +31,9 @@ Time Complexity:
             }
         }
   ```
+
+Space Complexity:
+The mergesort algorithm is recursive, so it requires O(log n) stack space, for both the array and linked list cases. But the array case also allocates an additional O(n) space, which dominates the O(log n) space required for the stack. So the array version is O(n), and the linked list version is O(log n).
   
   In conclusion: Time complexity is O(N) + O(N * log(N)) = O(N * log(N))
 ##### Array points
